@@ -1,0 +1,22 @@
+{
+  "name": "nik561/crypto-bot-api",
+  "description": "Lib for Crypto Bot Api",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Nik561\\CryptoBotApi\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Nik561"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "nesbot/carbon": "^2.59",
+    "guzzlehttp/guzzle": "^7.4",
+    "ramsey/uuid": "^4.3"
+  }
+}
